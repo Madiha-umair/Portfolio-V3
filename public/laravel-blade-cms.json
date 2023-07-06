@@ -1,0 +1,130 @@
+[
+{"type":"header","version":"5.1.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"laravel-blade-cms"},
+{"type":"table","name":"blogs","database":"laravel-blade-cms","data":
+[
+{"id":"1","title":"How can you program if you were blind?","blog":"Upon reading the experiences shared by blind programmers, I was struck with the realization that I had been unaware of their capabilities until now. As sighted individuals, we often take our vision for granted and assume everyone shares the same ability. Exploring answers on platforms like Stack Overflow, I discovered the extensive work that has been done to make programming accessible to blind individuals. Technologies such as IDEs like Eclipse, screen readers like JAWS, GUI toolkits, and Braille displays have opened up possibilities for them to actively participate in the field of development. Even software like Visual Studio has made significant strides in catering to the needs of these users. This led me to question why Oracle has been criticized for its lack of accessibility features and why blind individuals may find Python less preferable due to difficulties in remembering punctuation.Now, let's delve into how these insights relate to our web development practices. Admittedly, I had never considered designing a program with blind users in mind or creating an application that caters to their specific needs. It is crucial for us as developers to embrace the responsibility of ensuring accessibility for all individuals, beyond just those considered normal.We should constantly strive to make our applications usable and accessible for everyone, including individuals with special needs, the elderly, non-English speakers, those with limited education, and even children.To achieve this goal, we need to contemplate how our apps can benefit different user groups. For example, using icons can enhance comprehension for the elderly and those with limited English proficiency. Additionally, implementing a voice recorder option can greatly assist blind individuals in interacting with our applications. By placing ourselves in the shoes of these diverse users, we can identify numerous solutions to make our applications inclusive and accessible to all.In summary, it is a revelation to recognize the capabilities of blind programmers and the efforts made to empower them in the programming world. As developers, we must actively consider the accessibility needs of a wide range of users. By adopting an inclusive mindset, we can envision innovative solutions that benefit individuals with special needs, including the blind, elderly, non-English speakers, and more. Let us strive to create applications that truly cater to the diverse needs of every user, thus fostering a more inclusive and accessible digital landscape.","image":null,"link":"http:\/\/kuphal.com\/impedit-qui-eveniet-sint-et-odit-velit","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"2","title":"The Curb-Cut Effect","blog":"This article highlights the crucial idea that eliminating inequality in all aspects of society, including education, employment, rights, and accessibility, can lead to significant economic growth for a nation. The interconnectedness of individuals is emphasized, as anything that affects one person directly ultimately impacts everyone indirectly.The article effectively argues against prioritizing native people or any particular group as minorities. It advocates for equal treatment, rights, and opportunities for all individuals. When a country fails to integrate a large portion of its population into the economy due to minority status, it hampers opportunities and weakens the overall economy, ultimately causing harm to the nation. The article provides a compelling example of how reducing racial gaps in the United States led to a boost in the country's total GDP.In the realm of web development, we can apply the principles of the curb-cut effect in various ways. As developers, we should consider how our coding skills can contribute to the betterment of society as a whole. This includes finding ways to support and include individuals who may be neglected or marginalized, utilizing their skills to bring about positive change and contribute to the growth of our country.We should generate unique ideas that benefit individuals with special needs, enabling them to actively participate in shaping the future of our nation. Ensuring the usability of our applications from the perspective of special individuals who may have visual impairments, reading difficulties, or hearing challenges is paramount. By testing and adapting our products to cater to their needs, we can make our applications accessible to a wider audience. Encouraging inclusivity and providing additional features or installations to support diverse users should be a priority. We should focus on creating platforms and websites where individuals with special needs can learn, grow, and thrive. Offering equal job opportunities, fair pay scales, and creating inclusive work environments are essential. By considering the scenarios of every user during the development process, we can create products that are accessible and usable by everyone. This collective growth fosters national progress and prosperity, emphasizing the curb-cut effect's core belief that we are one nation and that our success or failure is interconnected. Equity is vital for advancement and economic well-being.","image":null,"link":"http:\/\/oconnell.com\/","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"3","title":"Accessibility according to actual people with disabilities","blog":"Web development is an ever-evolving field, and it's essential to stay updated with the latest trends, techniques, and standards. One of the critical aspects of web development is creating an accessible website that is usable by everyone, including people with disabilities. Web developers must keep in mind that users with disabilities use a variety of assistive technologies to navigate the web, such as screen readers, speech recognition software, and braille displays. The article highlights several key points that web developers should consider when designing and developing accessible websites. Firstly, web developers should ensure that all videos on their websites have captions or subtitles. This simple step can make a world of difference for users who are deaf or hard of hearing. Additionally, as web developer, we should also avoid using motion and animations excessively, as they can be distracting for users with cognitive impairments. Similarly, web developers should avoid using large blocks of text and ensure that the font size is appropriate for users with low vision. Another critical aspect of web development is color contrast. Web developers should ensure that there is sufficient contrast between the text and the background to make it easier for users with visual impairments to read the content. Similarly, web developers should avoid using bright color schemes that can be problematic for users with low vision. Web developers should also ensure that their websites are accessible to users who rely on touch screens and mobile devices. This includes ensuring that touch targets are large enough for users to navigate the website. Finally, web developers should avoid using CAPTCHAs or other security measures that can be difficult for users with disabilities to navigate. Instead, web developers should consider using alternative security measures that are more accessible, such as audio CAPTCHAs or simple math problems. In conclusion, web developers should prioritize accessibility when designing and developing websites. The points highlighted in this article provide an excellent starting point for web developers to create accessible websites that are usable by everyone, regardless of their abilities. By incorporating these practices, web developers can ensure that their websites are inclusive and accessible to all users.","image":null,"link":"http:\/\/collins.biz\/quia-dolor-quaerat-voluptatem-molestiae-facilis-facere.html","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"4","title":"Plant Friends","blog":"Software alone may not always be sufficient to address the needs of a community. In such cases, web developers typically create websites or web applications that are tailored to specific tasks, aiming to solve everyday problems or make life easier for people. However, by combining software with hardware, developers can create a more comprehensive and functional system. Web developers can play a crucial role in creating software systems that interact with hardware components to form a complete system. This combination of software and hardware is often referred to as an embedded system. Embedded systems are used in a wide range of applications, such as automotive, aerospace, medical devices, consumer electronics, and industrial automation. To participate in creating an embedded system, web developers must have a good understanding of both software and hardware components. The first step in creating an embedded system is to select the appropriate hardware components that will be used in the system. After that web developers must design the software components that will interact with them. Developers must also test the software components to ensure that they are communicating with the hardware components and performing the intended function. In conclusion, web developers can participate in creating a combination of software and hardware to make an embedded system by understanding the requirements and specifications of the hardware components, designing the software components that interact with them, testing and debugging the system, and optimizing the performance of the system. By utilizing their expertise in software development, web developers can contribute to the development of innovative and efficient embedded systems that can be used in a wide range of applications.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"}
+]
+}
+,{"type":"table","name":"experiences","database":"laravel-blade-cms","data":
+[
+{"id":"1","title":"Software Engineer(Internship)","company":"Pakistan International Airlines","start":"Jun-2010","end":"July-2010","detail":"","location":"Karachi, Pakistan","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"2","title":"High School Teacher","company":"Karachi Public School","start":"2012","end":"2018","detail":"","location":"Karachi, Pakistan","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"},
+{"id":"3","title":"Front End Developer","company":"Ideators Digital Limited","start":"June-2023","end":"Present","detail":"","location":"Quis ut quia laborum assumenda.","created_at":"2023-04-14 20:46:13","updated_at":"2023-04-14 20:46:13"}
+]
+}
+,{"type":"table","name":"failed_jobs","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"migrations","database":"laravel-blade-cms","data":
+[
+{"id":"11","migration":"2014_10_12_000000_create_users_table","batch":"1"},
+{"id":"12","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"13","migration":"2019_08_19_000000_create_failed_jobs_table","batch":"1"},
+{"id":"14","migration":"2019_12_14_000001_create_personal_access_tokens_table","batch":"1"},
+{"id":"15","migration":"2022_01_13_170756_create_projects_table","batch":"1"},
+{"id":"16","migration":"2022_01_13_191632_create_skills_table","batch":"1"},
+{"id":"17","migration":"2023_04_12_024821_create_qualifications_table","batch":"1"},
+{"id":"18","migration":"2023_04_13_164714_create_experiences_table","batch":"1"},
+{"id":"19","migration":"2023_04_14_000515_create_project_skill_table","batch":"1"},
+{"id":"20","migration":"2023_04_14_173000_create_blogs_table","batch":"1"}
+]
+}
+,{"type":"table","name":"password_resets","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"personal_access_tokens","database":"laravel-blade-cms","data":
+[
+
+]
+}
+,{"type":"table","name":"projects","database":"laravel-blade-cms","data":
+[ 
+{"id":"1","title":"Playpal App","live":"https:\/\/playpal-green.vercel.app\/","source":"https:\/\/github.com\/Madiha-umair\/PlayPal","slug":"PlayPal_App","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"The app aims to help children develop social skills by providing a platform for arranging playdates with other children of their age group within the same city.","user_id":"2","created_at":"2023-06-30 22:52:15","updated_at":"2023-07-02 07:53:37"},
+{"id":"7","title":"Healthy Life Style","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HealthyLifeStyle","slug":"click_here_For_HealthyLifeStyle","image":"projects\/aSESU8oGHqxPx8NKQeUAFUciXHor0bm8XwciSEKv.png","content":"A simple yet powerful healthy lifestyle application built using Pug, CSS, JavaScript, and Node.js. The website leverages the power of two APIs, allowing users to access a wealth of information on various exercises and easily calculate their BMI and calorie requirements.","user_id":"3","created_at":"2023-04-19 07:19:33","updated_at":"2023-04-19 07:48:36"},
+{"id":"8","title":"Event Management","live":null,"source":"https:\/\/github.com\/Madiha-umair\/EventManagementProject","slug":"Click_Here_For_EventManagementProject","image":"projects\/mwh952Q3mTMQCURresaSWfsE7iuT5q592uFwNN0F.png","content":"An innovative Full Stack event management application built using PHP, CSS, HTML, and MySQL. This dynamic website offers two interfaces - a user-friendly front-end for attendees to browse events & a comprehensive back-end.","user_id":"3","created_at":"2023-04-19 07:20:56","updated_at":"2023-04-19 07:45:34"},
+{"id":"5","title":"Gift Basket Shop","live":null,"source":"https:\/\/github.com\/Madiha-umair\/GiftShop\/tree\/master\/GiftShop","slug":"Click_To_See_GiftBasketShop","image":"projects\/FIABlkfnZAqFfLNeF6NpBfVK5IGlzerfJ53VFHS8.png","content":"A dynamic online gift basket shop built using ASP.NET, Entity Framework, and code first techniques.It incorporates efficient M-M and 1-Mrelationships to enhance data organization and retrieval.Users can effortlessly perform CRUD operations on all tables. With a visually appealing interface, users can explore a wide variety of gift baskets and items, accompanied by captivating images.","user_id":"2","created_at":"2023-04-14 22:02:51","updated_at":"2023-04-19 07:58:08"},
+{"id":"6","title":"HaveInn Hotel","live":null,"source":"https:\/\/github.com\/Madiha-umair\/HaveInn_Hotel","slug":"ClickToSee_HaveInnHotel","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A cutting-edge hotel management website application built using Node.js, CSS, Pug, and MongoDB.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"9","title":"Portfolio-V2","live":null,"source":"https:\/\/github.com\/Madiha-umair\/Portfolio-v2","slug":"ClickToSee_Portfolio","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A versatile Full Stack application leverages Laravel on the backend and Express, React, Node.js, CSS, and HTML on the frontend. It offers seamless integration and customization options, empowering users to create and manage their own portfolios with ease. ","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"10","title":"Portfolio-Backend-CMS","live":null,"source":"https:\/\/github.com\/Madiha-umair\/Portfolio-v2","slug":"ClickToSee_Portfolio_LogIn","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A dynamic Backend application and content management system built with Laravel, CSS, and MySQL.This project empowers users to efficiently manage and customize their content with ease. Leveraging the power of Laravel, it offers seamless integration, robust database management, and an intuitive user interface.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"},
+{"id":"11","title":"Web Evaluator","live":null,"source":"https:\/\/github.com\/Madiha-umair\/WebEvaluator-PetProject","slug":"ClickToSee_WebEvaluator","image":"projects\/IkWIbvY0ljPwfkjL1crQYlSPw6Yzw63WoamNctRr.png","content":"A simple yet powerful JavaScript application focused on Regex patterns and client-side form authentication. This project harnesses the strength of Regex to efficiently validate and manipulate input data, ensuring data integrity.","user_id":"2","created_at":"2023-04-18 22:52:15","updated_at":"2023-04-19 07:53:37"}
+]
+}
+,{"type":"table","name":"project_skill","database":"laravel-blade-cms","data":
+[
+{"id":"1","project_id":"5","skill_id":"6","created_at":null,"updated_at":null},
+{"id":"2","project_id":"5","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"3","project_id":"5","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"4","project_id":"6","skill_id":"9","created_at":null,"updated_at":null},
+{"id":"5","project_id":"6","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"6","project_id":"6","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"7","project_id":"6","skill_id":"14","created_at":null,"updated_at":null},
+{"id":"8","project_id":"7","skill_id":"9","created_at":null,"updated_at":null},
+{"id":"9","project_id":"7","skill_id":"15","created_at":null,"updated_at":null},
+{"id":"10","project_id":"7","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"11","project_id":"7","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"12","project_id":"8","skill_id":"7","created_at":null,"updated_at":null},
+{"id":"13","project_id":"8","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"14","project_id":"8","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"15","project_id":"8","skill_id":"19","created_at":null,"updated_at":null},
+{"id":"16","project_id":"9","skill_id":"9","created_at":null,"updated_at":null},
+{"id":"17","project_id":"9","skill_id":"15","created_at":null,"updated_at":null},
+{"id":"18","project_id":"9","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"19","project_id":"9","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"21","project_id":"9","skill_id":"12","created_at":null,"updated_at":null},
+{"id":"22","project_id":"9","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"24","project_id":"10","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"25","project_id":"10","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"26","project_id":"10","skill_id":"11","created_at":null,"updated_at":null},
+{"id":"27","project_id":"10","skill_id":"19","created_at":null,"updated_at":null},
+{"id":"28","project_id":"11","skill_id":"15","created_at":null,"updated_at":null},
+{"id":"29","project_id":"11","skill_id":"10","created_at":null,"updated_at":null},
+{"id":"30","project_id":"11","skill_id":"20","created_at":null,"updated_at":null},
+{"id":"31","project_id":"7","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"32","project_id":"1","skill_id":"9","created_at":null,"updated_at":null},
+{"id":"33","project_id":"1","skill_id":"12","created_at":null,"updated_at":null},
+{"id":"34","project_id":"1","skill_id":"1","created_at":null,"updated_at":null},
+{"id":"35","project_id":"1","skill_id":"14","created_at":null,"updated_at":null},
+{"id":"36","project_id":"1","skill_id":"20","created_at":null,"updated_at":null}
+]
+}
+,{"type":"table","name":"qualifications","database":"laravel-blade-cms","data":
+[
+{"id":"7","degree":"Ontario Graduate Certificate","field":"Web Development","institute":"Humber College","location":"Toronto, Canada","started_at":"2022","ended_at":"Present","created_at":"2023-04-18 22:45:52","updated_at":"2023-04-18 22:45:52"},
+{"id":"6","degree":"Masters of Engineering","field":"Computer Systems","institute":"NED University Of Engineering & Technology","location":"Karachi, Pakistan.","started_at":"2012","ended_at":"2014","created_at":"2023-04-18 22:43:35","updated_at":"2023-04-18 22:43:35"},
+{"id":"5","degree":"Bachelor of Engineering","field":"Computer & Information Systems","institute":"NED University Of Engineering & Technology","location":"Karachi, Pakistan.","started_at":"2008","ended_at":"2011","created_at":"2023-04-18 22:42:12","updated_at":"2023-04-18 22:42:12"}
+]
+}
+,{"type":"table","name":"skills","database":"laravel-blade-cms","data":
+[
+{"id":"6","title":"Asp.Net","image":"skills\/Ze4lGI6Nmd5Uo1QfA85RufpmqHN2c7yVfKiLadwd.jpg","created_at":"2023-04-18 22:08:18","updated_at":"2023-04-18 22:36:18"},
+{"id":"7","title":"PHP","image":"skills\/sQYzXECvnNb5Xghy5HYBNtpgIScEPBT81AbzVfmA.jpg","created_at":"2023-04-18 22:08:37","updated_at":"2023-04-18 22:29:04"},
+{"id":"9","title":"NodeJS","image":"skills\/OAD9miR2K1dFjEqwVQy1sGn7caGt1p3WeGMyqL1t.jpg","created_at":"2023-04-18 22:09:07","updated_at":"2023-04-18 22:29:25"},
+{"id":"15","title":"JavaScript","image":"skills\/zz9pT5zGSoZgk85efXnVSp5wnhUUVwHI6Lwb23Qb.jpg","created_at":"2023-04-18 22:10:41","updated_at":"2023-04-18 22:31:01"},
+{"id":"10","title":"Html","image":"skills\/ARZc4aplW8Zv3YPnlEG1LZXDeFk81K9gTUrJQG8d.jpg","created_at":"2023-04-18 22:09:19","updated_at":"2023-04-18 22:29:50"},
+{"id":"20","title":"CSS","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"},
+{"id":"11","title":"Laravel","image":"skills\/njTErauiluww2LWYbbGG8W3UaL5dX6CeNzLU24bS.jpg","created_at":"2023-04-18 22:09:32","updated_at":"2023-04-18 22:30:02"},
+{"id":"12","title":"React","image":"skills\/XXwLIbX6xOZg6ieoKh3fbiLzN2OCL7ZJunBwvIN8.jpg","created_at":"2023-04-18 22:09:44","updated_at":"2023-04-18 22:30:15"},
+{"id":"1","title":"Expressjs","image":"skills\/XXwLIbX6xOZg6ieoKh3fbiLzN2OCL7ZJunBwvIN8.jpg","created_at":"2023-04-18 22:09:44","updated_at":"2023-04-18 22:30:15"},
+{"id":"16","title":"Bootstrap","image":"skills\/mIAWfGd9Ni5f9YoSqI4RhP23G8LO8wG1D1GR4dUQ.jpg","created_at":"2023-04-18 22:36:45","updated_at":"2023-04-18 22:37:50"},
+{"id":"14","title":"MongoDb","image":"skills\/tcqTC8jZmxEfSOneFHVw5j0XfvhAN9sdcj6YmtBK.jpg","created_at":"2023-04-18 22:10:18","updated_at":"2023-04-18 22:36:04"},
+{"id":"19","title":"MySql","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"},
+{"id":"17","title":"Figma","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"},
+{"id":"18","title":"AdobeXd","image":"skills\/Vil0XmhvRIGOZhjhkfr0y9MHCJa4V1ew68zHJ6aG.jpg","created_at":"2023-04-18 22:36:51","updated_at":"2023-04-18 22:38:02"}
+]
+}
+,{"type":"table","name":"users","database":"laravel-blade-cms","data":
+[
+{"id":"1","first":"Mavis","last":"Boyle","email":"steuber.florencio@example.com","email_verified_at":"2023-04-14 20:46:12","password":"$2y$10$W5XDxct6IEbPRLq4pB6iwucb6kjLGHctTbvPqMNOuBfADhnXQMew6","remember_token":"p70kwBQmQM","created_at":"2023-04-14 20:46:12","updated_at":"2023-04-14 20:46:12"},
+{"id":"2","first":"Otilia","last":"Cummings","email":"dibbert.larissa@example.net","email_verified_at":"2023-04-14 20:46:12","password":"$2y$10$3I6jerhRiNhJKFWyGd4VdOXB9GceWptRQr.Hk5gberHKN8FmLN7US","remember_token":"z5nqmB8yBC","created_at":"2023-04-14 20:46:12","updated_at":"2023-04-14 20:46:12"},
+{"id":"3","first":"Madiha","last":"Umair","email":"madiha.altaf@yahoo.com","email_verified_at":null,"password":"$2y$10$6JDAUOiC5pBaeAYyU4FmfuHCsgPoFqdvnNpdZxLJFB.WkVuGvlq16","remember_token":null,"created_at":"2023-04-18 22:38:33","updated_at":"2023-04-18 22:38:33"}
+]
+}
+]
