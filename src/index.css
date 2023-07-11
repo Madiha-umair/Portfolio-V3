@@ -599,6 +599,52 @@ footer p {
   align-items: center;
 }
 
+
+
+#experience_container{
+  text-align: center;
+
+}
+
+
+#experience_container li h3,
+#experience_container li h4,
+#experience_container li p {
+  margin: 0;
+}
+
+
+#experience_container li {
+  /*margin:0 400px 40px 400px;*/
+  font-family: 'Lato', sans-serif;
+  margin: 100px 300px 100px 300px;
+  padding:10px;
+  position: relative;
+  width: 600px;
+  height: 100px;
+}
+
+#experience_container li::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border: 4px solid transparent;
+  animation: borderAnimation 5s infinite;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-image: linear-gradient(45deg, black, white) 1;
+  }
+  100% {
+    border-image: linear-gradient(45deg, white, black) 1;
+  }
+}
+
+
 /*********** Style for screen size upto 1050*************/
 @media (max-width: 1050px) {
 
