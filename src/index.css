@@ -11,7 +11,8 @@
   box-shadow: 0 1px 8px -5px #000;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  background-color: #ffe9e1;
 }
 
 body {
@@ -19,9 +20,10 @@ body {
   font-family: 'Playfair Display', serif;
 
   /*font-family: 'Lato', sans-serif;*/
-  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
-  /*background-color: #fcffe1;*/
+  /*background-color: #fff6e1; */
+  background-color:#ffe9e1;
   background-size: 200% 200%;
   animation: gradientAnimation 14s ease infinite;
 }
@@ -292,7 +294,7 @@ ul {
   /*color: #1d27eb;*/
   letter-spacing: 12px;
   transition: color 0.4s ease;
-  animation: colorChange 10s infinite;
+  /*animation: colorChange 10s infinite;*/
 }
 
 #exclamation {
@@ -330,6 +332,8 @@ ul {
 
 #about-text-portion h3{
   margin-top: 55px;
+  transition: color 0.4s ease;
+  animation: colorChange 10s infinite;
 }
 
 #about-text-portion h1{
@@ -350,7 +354,7 @@ ul {
   font-size: 24px;
   color: #000;
   transition: color 0.4s ease;
-  animation: colorChange 10s infinite;
+  /*animation: colorChange 10s infinite;*/
   margin-bottom: 80px;
 }
 
@@ -365,7 +369,7 @@ ul {
   }
 
   20% {
-    color: #1d27eb;
+    color: #fb7e7e;
     ;
   }
 
@@ -374,7 +378,8 @@ ul {
   }
 
   60% {
-    color: #1d27eb;
+   /* color: #1d27eb;*/
+   color:#fb7e7e;
     ;
   }
 
@@ -383,7 +388,7 @@ ul {
   }
 
   100% {
-    color: #1d27eb;
+    color: #fb7e7e;;
     ;
   }
 }
