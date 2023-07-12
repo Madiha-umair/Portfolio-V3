@@ -65,6 +65,7 @@ export default function Skills() {
           </li>
         ))}
       </ul>
+      <hr id="line" />
       </div>
     </div>
   );

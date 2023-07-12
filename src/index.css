@@ -6,17 +6,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0 1px 15px -2px #000;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
 }
 
 body {
+  margin:0;
   font-family: 'Playfair Display', serif;
+
   /*font-family: 'Lato', sans-serif;*/
-  background: linear-gradient(90deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
+  /*background-color: #fcffe1;*/
   background-size: 200% 200%;
   animation: gradientAnimation 14s ease infinite;
 }
+
+
 
 @keyframes gradientAnimation {
   0% {
@@ -250,11 +260,19 @@ ul {
 /*********** Applying Animation to Elements **********/
 .about {
   animation: scaleIn 2s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*align-items: center;
+  gap:200px;*/
+  margin-top: 90px;
+  
 }
 
 #name {
   font-size: 50px;
   color: #1d27eb;
+  letter-spacing: 4px;
 }
 
 #exclamation {
@@ -277,14 +295,6 @@ ul {
   animation: scaleIn 7s ease-in-out;
 }*/
 /************* Styles for about page ***************/
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /*align-items: center;
-  gap:200px;*/
-  margin-top: 0px;
-}
 
 #about-text,
 #about-text-cont {
@@ -466,6 +476,9 @@ ul {
   font-family: 'Lato', sans-serif;
 }
 
+#projects{
+margin-top: 70px;
+}
 h3 {
   font-size: 25px;
 }
@@ -562,7 +575,7 @@ h3 {
 
 /********************** Styles for footer *******************/
 footer {
-  margin-top: 2rem;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -599,20 +612,15 @@ footer p {
   align-items: center;
 }
 
-
-
 #experience_container{
   text-align: center;
-
 }
-
 
 #experience_container li h3,
 #experience_container li h4,
 #experience_container li p {
   margin: 0;
 }
-
 
 #experience_container li {
   /*margin:0 400px 40px 400px;*/
@@ -622,6 +630,7 @@ footer p {
   position: relative;
   width: 600px;
   height: 100px;
+  left:
 }
 
 #experience_container li::before {
@@ -643,7 +652,6 @@ footer p {
     border-image: linear-gradient(45deg, white, black) 1;
   }
 }
-
 
 .blog-container {
   max-width: 500px;

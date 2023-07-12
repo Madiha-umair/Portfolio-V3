@@ -52,6 +52,20 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a href="#experience">
+            <div id="messageimg">
+            <p>experience</p>
+            </div>
+            </a>
+          </li>
+          <li>
+            <a href="#blogs">
+            <div id="messageimg">
+            <p>blogs</p>
+            </div>
+            </a>
+          </li>
+          <li>
             <a href="#contactme">
             <div id="messageimg">
             <img src={messageImage} alt="skills icon" width= "30" height="30" />

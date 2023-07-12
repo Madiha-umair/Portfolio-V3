@@ -37,8 +37,8 @@ export default function Experience() {
             <p>{entity.detail}</p>
           </li>
         ))}
-        <hr id="line" />
       </ul>
+      <hr className="line" />
     </div>
     </div>
   );
