@@ -3,6 +3,8 @@ import aboutImage from '../assets/images/about.jpg';
 import projectsImage from '../assets/images/projects.jpg';
 import qualificationImage from '../assets/images/qualification.jpg';
 import skillsImage from '../assets/images/skills.jpg';
+import experienceImage from '../assets/images/experience.png';
+import blogImage from '../assets/images/blog.jpg';
 import messageImage from '../assets/images/message.jpg';
 
 
@@ -28,12 +30,14 @@ export default function Header() {
             <a href="#about">
             <div id="aboutimg">
             <img src={aboutImage} alt="profile icon" width= "30" height="30" />
+            <div id="navbar-elements">About</div>
             </div></a>
           </li>
           <li>
             <a href="#projects">
             <div id="projectimg">
             <img src={projectsImage} alt="project icon" width= "30" height="30" />
+            <div id="navbar-elements">Projects</div>
             </div>
             </a>
           </li>
@@ -41,6 +45,7 @@ export default function Header() {
             <a href="#education">
             <div id="educationimg">
             <img src={qualificationImage} alt="education icon" width= "40" height="30" />
+            <div id="navbar-elements">Education</div>
             </div>
             </a>
           </li>
@@ -48,20 +53,23 @@ export default function Header() {
             <a href="#skills">
             <div id="skillimg">
             <img src={skillsImage} alt="skills icon" width= "30" height="30" />
+            <div id="navbar-elements">Skills</div>
             </div>
             </a>
           </li>
           <li>
             <a href="#experience">
-            <div id="messageimg">
-            <p>experience</p>
+            <div id="experienceimg">
+            <img src={experienceImage} alt="experience icon" width= "30" height="30" />
+            <div id="navbar-elements">Experience</div>
             </div>
             </a>
           </li>
           <li>
             <a href="#blogs">
-            <div id="messageimg">
-            <p>blogs</p>
+            <div id="blogimg">
+            <img src={blogImage} alt="blog icon" width= "30" height="30" />
+            <div id="navbar-elements">Blogs</div>
             </div>
             </a>
           </li>
@@ -69,6 +77,7 @@ export default function Header() {
             <a href="#contactme">
             <div id="messageimg">
             <img src={messageImage} alt="skills icon" width= "30" height="30" />
+            <div id="navbar-elements">Contact</div>
             </div>
             </a>
           </li>
@@ -92,6 +101,12 @@ export default function Header() {
             </li>
             <li>
               <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#blogs">Blogs</a>
             </li>
             <li>
               <a href="#contactme">Contact me</a>
