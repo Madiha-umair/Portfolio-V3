@@ -625,12 +625,14 @@ footer p {
 #experience_container li {
   /*margin:0 400px 40px 400px;*/
   font-family: 'Lato', sans-serif;
-  margin: 100px 300px 100px 300px;
+  /*margin: 100px 300px 100px 300px;*/
+  margin:100px 0;
   padding:10px;
   position: relative;
   width: 600px;
   height: 100px;
-  left:
+  left:370px;
+
 }
 
 #experience_container li::before {
@@ -653,9 +655,12 @@ footer p {
   }
 }
 
+#blogs{
+  margin-top: 50px;
+}
 .blog-container {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .blog-container li {

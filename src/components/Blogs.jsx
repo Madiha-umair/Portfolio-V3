@@ -23,7 +23,7 @@ export default function Blogs() {
   };
 
   return (
-    <div >
+    <div id="blogs">
       <h2>Blogs</h2>
       <div className="blog-container">
         <ul>
@@ -38,6 +38,7 @@ export default function Blogs() {
             </li>
           ))}
         </ul>
+
       </div>
     </div>
   );
