@@ -12,7 +12,8 @@
   width: 100%;
   z-index: 1000;
   /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
-  background-color: #ffe9e1;
+ background-color: #ffe9e1;
+ 
 }
 
 body {
@@ -23,22 +24,22 @@ body {
   /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
   /*background-color: #fff6e1; */
-  background-color: #ffe9e1;
+  background: linear-gradient(45deg, #fffffb, #ffe9e1, #f59e7e);
+  /*background-color: #ffe9e1;*/
   background-size: 200% 200%;
   animation: gradientAnimation 14s ease infinite;
 }
 
-
-
 @keyframes gradientAnimation {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
   }
-
+  25% {
+    background-position: 25% 50%;
+  }
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
