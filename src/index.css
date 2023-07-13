@@ -697,6 +697,7 @@ footer p {
     left: 70%;
     background-color: #000000;
     z-index: 1;
+    padding:6px;
   }
 
   .mobile-menu ul {
@@ -707,6 +708,7 @@ footer p {
 
   .mobile-menu li {
     margin: 0;
+    padding: 5px 0;
     text-align: center;
   }
 
@@ -735,12 +737,12 @@ footer p {
     /*margin: 10px 0;*/
   }
 
-  h2 {
-    margin-left: 2rem;
+  .mobile-menu-toggle img{
+    margin-left: 50px;
   }
 
-  .about {
-    gap: 70px;
+  h2 {
+    margin-left: 2rem;
   }
 
   #qualification_container li {
@@ -792,6 +794,10 @@ footer p {
 
   .mobile-menu-toggle {
     color: #eceed5;
+  }
+
+  .mobile-menu-toggle img{
+    margin-bottom: 26px;
   }
 
   body {
@@ -889,9 +895,6 @@ footer p {
 
 /*********** Style for screen size upto 480*************/
 @media (max-width: 480px) {
-  .about {
-    margin: 50px auto 0 auto;
-  }
   #qualification_container li {
     margin: 0 0 30px 30px;
   }
@@ -900,7 +903,6 @@ footer p {
     background-color: #000;
     padding: 10px;
   }
-
   .project_item {
     margin: 0 0px 30px 0;
   }
