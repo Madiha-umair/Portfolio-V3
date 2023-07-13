@@ -6,6 +6,7 @@ import skillsImage from '../assets/images/skills.jpg';
 import experienceImage from '../assets/images/experience.png';
 import blogImage from '../assets/images/blog.jpg';
 import messageImage from '../assets/images/message.jpg';
+import logoImage from '../assets/images/logo.png';
 
 
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
   return (
     <header id="header">
       <h2 id="site-name">
-        <a href="/">MU</a>
+        <a href="/"><img src={logoImage} alt="madiha signature" width= "80" height="40" /></a>
       </h2>
       <h2 id="site-name-for-mobile">
         <a href="/">MU</a>

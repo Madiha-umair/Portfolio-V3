@@ -43,9 +43,35 @@ body {
     background-position: 0% 50%;
   }
 }
+/*
+.image-container {
+  width: 200px;
+  height: 100px;
+  background-image: url("./assets/images/logo9.png"); /* Set initial background image */
+  /*animation: changeImage 6s infinite; 
+  background-size: cover; 
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url("./assets/images/logo1.png"); 
+  }
+  33% {
+    background-image: url("./assets/images/logo2.png"); 
+  66% {
+    background-image: url("./assets/images/logo3.png"); 
+  }
+  100% {
+    background-image: url("./assets/images/logo9.png"); 
+  }
+}*/
 
 h2 {
   margin-left: 4rem;
+}
+
+#site-name a{
+  font:bolder;
 }
 
 #site-name-for-mobile {
@@ -290,7 +316,7 @@ ul {
 
 #name {
   font-size: 50px;
-  color: #000;
+  color: #d53030;
   /*color: #1d27eb;*/
   letter-spacing: 12px;
   transition: color 0.4s ease;
@@ -332,8 +358,8 @@ ul {
 
 #about-text-portion h3{
   margin-top: 55px;
-  transition: color 0.4s ease;
-  animation: colorChange 10s infinite;
+  /*transition: color 0.4s ease;
+  animation: colorChange 10s infinite;*/
 }
 
 #about-text-portion h1{
@@ -362,6 +388,7 @@ ul {
 .social-icons i:hover {
   color: #007bff;
 }*/
+/*
 
 @keyframes colorChange {
   0% {
@@ -379,7 +406,7 @@ ul {
 
   60% {
    /* color: #1d27eb;*/
-   color:#fb7e7e;
+   /*color:#fb7e7e;
     ;
   }
 
@@ -392,7 +419,7 @@ ul {
     ;
   }
 }
-
+*/
 /* Horizontal line */
 #line, .line {
   width: 500px;
@@ -548,7 +575,7 @@ h3 {
 .project_details h3 a {
   font-weight: 900;
   font-family: 'Playfair Display', serif;
-  color: #1d27eb;
+  color: #d53030;
   margin: 0;
 }
 
