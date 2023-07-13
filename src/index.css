@@ -16,14 +16,14 @@
 }
 
 body {
-  margin:0;
+  margin: 0;
   font-family: 'Playfair Display', serif;
 
   /*font-family: 'Lato', sans-serif;*/
   /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
   /*background-color: #fff6e1; */
-  background-color:#ffe9e1;
+  background-color: #ffe9e1;
   background-size: 200% 200%;
   animation: gradientAnimation 14s ease infinite;
 }
@@ -43,12 +43,13 @@ body {
     background-position: 0% 50%;
   }
 }
+
 /*
 .image-container {
   width: 200px;
   height: 100px;
   background-image: url("./assets/images/logo9.png"); /* Set initial background image */
-  /*animation: changeImage 6s infinite; 
+/*animation: changeImage 6s infinite; 
   background-size: cover; 
 }
 
@@ -70,8 +71,8 @@ h2 {
   margin-left: 4rem;
 }
 
-#site-name a{
-  font:bolder;
+#site-name a {
+  font: bolder;
 }
 
 #site-name-for-mobile {
@@ -107,71 +108,11 @@ nav ul li a:hover {
   color: #106dca;
 }
 
-#navbar-elements{
-  color:#555;
-  font-size:13px;
+#navbar-elements {
+  color: #555;
+  font-size: 13px;
 }
 
-/************* Hover Styles for nav bar ***************/
-/*#aboutimg,
-#projectimg,
-#educationimg,
-#skillimg,
-#experienceimg,
-#blogimg,
-#messageimg {
-  position: relative;
-  display: inline-block;
-}
-
-#aboutimg:hover::after,
-#projectimg:hover::after,
-#educationimg:hover::after,
-#skillimg:hover::after,
-#experienceimg:hover::after,
-#blogimg:hover::after,
-#messageimg:hover::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #000;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 12px;
-  white-space: nowrap;
-}
-
-#aboutimg:hover::after {
-  content: "About";
-}
-
-#projectimg:hover::after {
-  content: "Projects";
-}
-
-#educationimg:hover::after {
-  content: "Qualification";
-}
-
-#skillimg:hover::after {
-  content: "Skill";
-}
-
-#experienceimg:hover::after {
-  content: "Experience";
-}
-
-#blogimg:hover::after {
-  content: "Blog";
-}
-
-#messageimg:hover::after {
-  content: "Contact me";
-}
-*/
 /* Education styles */
 ul {
   margin: 0px;
@@ -179,48 +120,6 @@ ul {
   list-style: none;
 }
 
-/* Download button styles */
-/*.downloadbtn {
-  width: 170px;
-  height: 42px;
-  background: linear-gradient(90deg, white, black);
-  background-size: 500% 100%;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 25px 0 30px 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.downloadbtn a {
-  text-decoration: none;
-  color: #eceed5;
-  position: relative;
-  z-index: 1;
-}
-
-.downloadbtn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, white, black);
-  background-size: 500% 100%;
-  animation: fillAnimation 4s linear infinite;
-  z-index: 0;
-}
-
-@keyframes fillAnimation {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 100% 0%;
-  }
-}*/
 .downloadbtn,
 .contact-button {
   width: 170px;
@@ -311,7 +210,7 @@ ul {
   /*align-items: center;
   gap:200px;*/
   margin-top: 90px;
-  
+
 }
 
 #name {
@@ -330,19 +229,6 @@ ul {
   color: #000;
 }
 
-/*
-#about-text {
-  animation: scaleIn 4s ease-in-out;
-}
-#about-text-cont {
-  animation: scaleIn 5s ease-in-out;
-}
-.downloadbtn{
-  animation: scaleIn 7s ease-in-out;
-}
-.social-icons {
-  animation: scaleIn 7s ease-in-out;
-}*/
 /************* Styles for about page ***************/
 
 #about-text,
@@ -356,15 +242,16 @@ ul {
   text-align: center;
 }
 
-#about-text-portion h3{
+#about-text-portion h3 {
   margin-top: 55px;
   /*transition: color 0.4s ease;
   animation: colorChange 10s infinite;*/
 }
 
-#about-text-portion h1{
+#about-text-portion h1 {
   font-size: 35px;
 }
+
 /* Styles for social media icon */
 .social-icons {
   align-items: center;
@@ -384,52 +271,17 @@ ul {
   margin-bottom: 80px;
 }
 
-/*
-.social-icons i:hover {
-  color: #007bff;
-}*/
-/*
-
-@keyframes colorChange {
-  0% {
-    color: #000;
-  }
-
-  20% {
-    color: #fb7e7e;
-    ;
-  }
-
-  40% {
-    color: #000;
-  }
-
-  60% {
-   /* color: #1d27eb;*/
-   /*color:#fb7e7e;
-    ;
-  }
-
-  80% {
-    color: #000;
-  }
-
-  100% {
-    color: #fb7e7e;;
-    ;
-  }
-}
-*/
 /* Horizontal line */
-#line, .line {
+#line,
+.line {
   width: 500px;
   border: none;
   border-top: 2px solid #333;
   display: block;
 }
 
-#line{
-  margin: 50px 100px;
+#line {
+  margin: 50px auto;
 }
 
 /************ Styles for qualification **************/
@@ -536,9 +388,10 @@ ul {
   font-family: 'Lato', sans-serif;
 }
 
-#projects{
-margin-top: 70px;
+#projects {
+  margin-top: 70px;
 }
+
 h3 {
   font-size: 25px;
 }
@@ -672,7 +525,7 @@ footer p {
   align-items: center;
 }
 
-#experience_container{
+#experience_container {
   text-align: center;
 }
 
@@ -682,17 +535,16 @@ footer p {
   margin: 0;
 }
 
-#experience_container li {
-  /*margin:0 400px 40px 400px;*/
-  font-family: 'Lato', sans-serif;
-  /*margin: 100px 300px 100px 300px;*/
-  margin:100px 0;
-  padding:10px;
-  position: relative;
-  width: 600px;
-  height: 100px;
-  left:370px;
 
+#experience_container li {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  margin: 60px 0px;
+  padding: 0;
+ /* height: auto;*/
+  left: 30%;
+  width: 40%;
+  font-size: 12px;
 }
 
 #experience_container li::before {
@@ -710,14 +562,21 @@ footer p {
   0% {
     border-image: linear-gradient(45deg, black, white) 1;
   }
+
+  50% {
+    border-image: linear-gradient(45deg, white, #d53030) 1;
+
+  }
+
   100% {
-    border-image: linear-gradient(45deg, white, black) 1;
+    border-image: linear-gradient(45deg, #d53030, black) 1;
   }
 }
 
-#blogs{
+#blogs {
   margin-top: 50px;
 }
+
 .blog-container {
   max-width: 500px;
   margin: 60px auto;
@@ -795,10 +654,10 @@ footer p {
   }
 }
 
-/*********** Style for screen size upto 767*************/
+/*********** Style for screen size upto 900*************/
 @media screen and (max-width: 900px) {
   .about {
-    margin: 0 130px 30px 130px;
+    margin: 50px auto 0 auto;
     text-align: center;
   }
 
@@ -810,6 +669,9 @@ footer p {
   #about-text-cont {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
+  }
+  #skill_container {
+    margin-bottom:20px;
   }
 
   #skill_container ul {
@@ -830,13 +692,9 @@ footer p {
 
   /* Style for the mobile navigation menu */
   .mobile-menu {
-    display: flex;
-    width: 160px;
-    flex-direction: column;
-    align-items: center;
     position: absolute;
-    top: 12%;
-    left: 60%;
+    top: 80%;
+    left: 70%;
     background-color: #000000;
     z-index: 1;
   }
@@ -844,24 +702,18 @@ footer p {
   .mobile-menu ul {
     list-style: none;
     display: block;
-    margin: 0 0 0 17px;
-    padding: 0;
-    width: 150px;
+    width: auto;
   }
 
   .mobile-menu li {
     margin: 0;
-    width: 80%;
     text-align: center;
-    padding: 5px;
   }
 
   .mobile-menu a {
     color: #eceed5;
     text-decoration: none;
     font-size: 16px;
-    display: block;
-    padding: 4px;
     font-weight: normal;
   }
 
@@ -894,6 +746,17 @@ footer p {
   #qualification_container li {
     font-size: 15px;
   }
+  #experience_container li h3 {
+    font-size: 16px;
+  }
+  
+  .blog-container h2 {
+    font-size: 16px;
+  }
+  
+  .blog-container p {
+    font-size: 12px;
+  }
 }
 
 /*********** Style for screen size upto 530*************/
@@ -909,9 +772,19 @@ footer p {
   #header {
     background-color: #000000;
     color: #eceed5;
+    width: 100%;
+    /* Adjusted width for mobile */
     /*width: 480px;*/
   }
 
+  #name {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+ #about-text-portion h1 {
+    font-size: 20px;
+}
   #profileimg img {
     width: 200px;
     height: 200px;
@@ -927,17 +800,11 @@ footer p {
   }
 
   .about {
-    flex-direction: column-reverse;
-    justify-content: center;
-    /*gap:20px;
-    margin:20px 0 0 31px;*/
     margin: 0;
-    align-items: center;
-    text-align: center;
   }
 
   #about-text-portion {
-    margin-top: 35px;
+    margin-top: 100px;
   }
 
   img {
@@ -983,7 +850,7 @@ footer p {
     top: -70px;
   }
 
-  #line {
+  #line, .line {
     width: 250px;
     margin: 0px auto 30px auto;
     border-top: 1px solid #333;
@@ -1019,8 +886,12 @@ footer p {
   }
 }
 
+
 /*********** Style for screen size upto 480*************/
 @media (max-width: 480px) {
+  .about {
+    margin: 50px auto 0 auto;
+  }
   #qualification_container li {
     margin: 0 0 30px 30px;
   }
