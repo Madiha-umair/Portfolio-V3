@@ -566,12 +566,12 @@ footer p {
   }
 
   50% {
-    border-image: linear-gradient(45deg, white, #d53030) 1;
+    border-image: linear-gradient(45deg, white, #afdef9) 1;
 
   }
 
   100% {
-    border-image: linear-gradient(45deg, #d53030, black) 1;
+    border-image: linear-gradient(45deg, #afdef9, black) 1;
   }
 }
 
