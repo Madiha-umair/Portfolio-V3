@@ -104,7 +104,7 @@ export default function Header() {
       <div className="mobile-menu-toggle" onClick={toggleMenu}>
         {/* Display menu image based on screen size */}
         {isMobileMenu ? (
-          <img src={menuImage} alt="menu symbol" width="40" height="40" />
+          <img src={menuTabletImage} alt="menu symbol" width="40" height="40" />
         ) : (
           <img src={menuTabletImage} alt="menu symbol" width="40" height="40" />
         )}

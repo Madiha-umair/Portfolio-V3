@@ -11,8 +11,8 @@
   box-shadow: 0 1px 8px -5px #000;
   width: 100%;
   z-index: 1000;
-  /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
- background-color: #ffe9e1;
+  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+ /*background-color: #ffe9e1;*/
  
 }
 
@@ -21,10 +21,10 @@ body {
   font-family: 'Playfair Display', serif;
 
   /*font-family: 'Lato', sans-serif;*/
-  /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
   /*background-color: #fff6e1; */
-  background: linear-gradient(45deg, #fffffb, #ffe9e1, #f59e7e);
+  /*background: linear-gradient(45deg, #fffffb, #ffe9e1, #f59e7e);/*pink and dull red*/
   /*background-color: #ffe9e1;*/
   background-size: 200% 200%;
   animation: gradientAnimation 14s ease infinite;
@@ -216,8 +216,9 @@ ul {
 
 #name {
   font-size: 50px;
-  color: #d53030;
-  /*color: #1d27eb;*/
+  /*color: #d53030;*/ /*RED*/
+  color:#000;
+  /*color: #1d27eb;*/ /*blue*/
   letter-spacing: 12px;
   transition: color 0.4s ease;
   /*animation: colorChange 10s infinite;*/
@@ -429,7 +430,7 @@ h3 {
 .project_details h3 a {
   font-weight: 900;
   font-family: 'Playfair Display', serif;
-  color: #d53030;
+  color: #000;
   margin: 0;
 }
 
@@ -827,7 +828,7 @@ footer p {
   #site-name-for-mobile,
   #site-name-for-mobile a {
     display: block;
-    color: #eceed5;
+    color: #000;
   }
 
   nav ul li:not(:last-child) {

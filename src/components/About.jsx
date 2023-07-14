@@ -14,7 +14,7 @@ export default function About() {
               //<p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
             }
             <button class="downloadbtn">
-            <a href="https://drive.google.com/file/d/10UTAwbjtXjnGM4qt3gLeW1GGTaNrlYny/view?usp=sharing" download="Madiha Resume">
+            <a href="https://drive.google.com/file/d/1Q3uu9udIgC0vOrmUwoIPZvpda8KQdlfc/view?usp=sharing" download="Madiha Resume">
               Resume  
             </a>
           </button>
