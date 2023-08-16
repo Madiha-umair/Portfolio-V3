@@ -6,13 +6,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0px;
   box-shadow: 0 1px 8px -5px #000;
   width: 100%;
   z-index: 1000;
   /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
-  /*background-color: #ffd165; /*orange*/
+  background-color: #ffd165; 
 }
 
 body {
@@ -214,7 +214,6 @@ ul {
   font-size: 50px;
   /*color: #d53030;*/ /*RED*/
   color:#000;
-  /*color: #1d27eb;*/ /*blue*/
   letter-spacing: 12px;
   transition: color 0.4s ease;
   /*animation: colorChange 10s infinite;*/
