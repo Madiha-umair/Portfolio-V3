@@ -7,7 +7,7 @@ export default function ContactButton() {
 
   return (
     <div id="contactme">
-    <button onClick={handleContactClick}><a href="mailto:madiha.altaf@yahoo.com" class="contact-button">Contact me</a></button>
+    <button onClick={handleContactClick}><a href="mailto:madiha.altaf@yahoo.com" className="contact-button">Contact me</a></button>
     </div>
   );
 }

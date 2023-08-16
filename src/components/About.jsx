@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../assets/images/MadihaUmair.png';
+//import myImage from '../assets/images/MadihaUmair.png';
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
               //<p id="about-text">I am passionate about coding and love to build things that can help people.</p>
               //<p id="about-text-cont">I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
             }
-            <button class="downloadbtn">
+            <button className="downloadbtn">
             <a href="https://drive.google.com/file/d/1Q3uu9udIgC0vOrmUwoIPZvpda8KQdlfc/view?usp=sharing" download="Madiha Resume">
               Resume  
             </a>
@@ -36,7 +36,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <hr class="line" />
+      <hr className="line" />
     </div>
   );
 }

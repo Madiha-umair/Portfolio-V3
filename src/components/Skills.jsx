@@ -40,7 +40,7 @@ export default function Skills() {
     const getSkill = async () => {
       let response = await fetch("./laravel-blade-cms.json");
       let data = await response.json();
-      console.log(data);
+      //console.log(data);
       let each_skill = data[11].data.map((item) => item.title);
       setSkills(each_skill);
     };

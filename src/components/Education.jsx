@@ -7,7 +7,6 @@ export default function Education() {
         const getEducation = async () => {
           let response = await fetch("./laravel-blade-cms.json");
           let databaseTables = await response.json();
-          console.log(databaseTables);
 
           let each_education = databaseTables[10].data.map((item) => ({
             field: item.field,

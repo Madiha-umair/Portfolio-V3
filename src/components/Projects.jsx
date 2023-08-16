@@ -53,7 +53,7 @@ export default function Project() {
     const getProject = async () => {
       let response = await fetch("./laravel-blade-cms.json");
       let databaseTables = await response.json();
-      console.log(databaseTables);
+      //console.log(databaseTables);
 
       const projectsTable = databaseTables.find(
         (table) => table.name === "projects"
@@ -85,7 +85,7 @@ export default function Project() {
         });
 
         setProject(each_Project);
-        console.log(each_Project);
+        //console.log(each_Project);
       }
     };
     getProject();

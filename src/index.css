@@ -7,13 +7,14 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+
   top: 0px;
   box-shadow: 0 1px 8px -5px #000;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
- /*background-color: #ffe9e1;*/
- 
+  /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
+  /*background-color: #ffc640;*/
+  background-color: #ffd165;
 }
 
 body {
@@ -22,16 +23,16 @@ body {
 
   /*font-family: 'Lato', sans-serif;*/
   /*background: linear-gradient(45deg, #fffffb, #d9fdbf, #afdef9); /*skyblue and green theme*/
-  background-color:#eceed5;
-  
+  /*background-color:#eceed5;*/
+  background: linear-gradient(90deg, #f9e0a5, #ffffff, #f9e0a5);/*orange*/
   /*background: linear-gradient(45deg,#f5fbbe,#ffffff,#b582e4);*/
-  /*background-color: #fff6e1; */
+ /* background-color: #ffffff; */
   /*background: linear-gradient(45deg, #fffffb, #ffe9e1, #f59e7e);/*pink and dull red*/
-  /*background-color: #ffe9e1;*/
-  background-size: 200% 200%;
-  animation: gradientAnimation 14s ease infinite;
+  /*background-color: #f9e0a5;*/
+ /* background-size: 200% 200%;*/
+  /*animation: gradientAnimation 14s ease infinite;*/
 }
-
+/*
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 25%;
@@ -45,7 +46,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+}*/
 
 /*
 .image-container {
@@ -137,7 +138,8 @@ ul {
 .downloadbtn a,
 #contactme a {
   text-decoration: none;
-  color: #eceed5;
+  /*color: #eceed5;*/ /*biscue*/
+  color: #ffffff;
 }
 
 #contactme {
@@ -776,11 +778,7 @@ footer p {
   }
 
   #header {
-    background-color: #000000;
-    color: #eceed5;
     width: 100%;
-    /* Adjusted width for mobile */
-    /*width: 480px;*/
   }
 
   #name {
