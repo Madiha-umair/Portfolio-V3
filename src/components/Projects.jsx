@@ -106,8 +106,9 @@ export default function Project() {
               )}
             </div>
             <div className="project_details">
+            
               <h3>
-                <a href={projectWork.source}>{projectWork.title}</a>
+                <a href={projectWork.source} data-text={projectWork.title}>{projectWork.title}</a>
               </h3>
               <p>{projectWork.content}</p>
               <div className="project_skills">
